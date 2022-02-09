@@ -20,10 +20,12 @@ export default  class Resume extends Component {
                           <h3>{item.UniversityName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfPassing} {item.YearOfPassing}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          <span>&bull;</span> <em className="date">{item.MonthOfEnrollment} {item.YearOfEnrollment} - {item.MonthOfPassing} {item.YearOfPassing}</em></p>
+                          <ul>
+                          {item.Achievements.map(achievement=>(
+                            <li>- {achievement}</li>
+                          ))}
+                          </ul>
                        </div>
                     </div>
                   )
@@ -45,10 +47,12 @@ export default  class Resume extends Component {
                           <h3>{item.CompanyName}</h3>
                           <p className="info">
                           {item.specialization}
-                          <span>&bull;</span> <em className="date">{item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
-                          <p>
-                          {item.Achievements}
-                          </p>
+                          <span>&bull;</span> <em className="date">{item.MonthOfStarting} {item.YearOfStarting} - {item.MonthOfLeaving} {item.YearOfLeaving}</em></p>
+                          <ul>
+                          {item.Achievements.map(achievement=>(
+                            <li>- {achievement}</li>
+                          ))}
+                          </ul>
                        </div>
 
                     </div>

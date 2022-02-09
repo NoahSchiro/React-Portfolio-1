@@ -1,104 +1,142 @@
 let resumeData = {
-    "imagebaseurl":"https://rbhatia46.github.io/",
-    "name": "Rahul Bhatia",
-    "role": "Frontend Developer and Data Scientist",
-    "linkedinId":"Your LinkedIn Id",
-    "skypeid": "Your skypeid",
-    "roleDescription": "I like dabbling in various parts of frontend development and like to learn about new technologies, write technical articles or simply play games in my free time.",
+    "imagebaseurl":"https://www.github.com/NoahSchiro",
+    "name": "Noah Schiro",
+    "role": "Software Engineer",
+    "linkedinId": "https://www.linkedin.com/in/noah-schiro-516754190/",
+    "phoneNumber" : "+1-570-535-9086",
+    "email" : "noahschiro@rocketmail.com",
+    "roleDescription": "I am currently a student of computer science and mathematics at Penn State University and I am seeking an internship. I love learning about machine learning, embedded software design, and numerical analysis.",
     "socialLinks":[
         {
           "name":"linkedin",
-          "url":"https://www.linkedin.com/in/rahul-bhatia-67ba08121/",
+          "url":"https://www.linkedin.com/in/noah-schiro-516754190/",
           "className":"fa fa-linkedin"
         },
         {
           "name":"github",
-          "url":"http://github.com/rbhatia46",
+          "url":"http://github.com/NoahSchiro",
           "className":"fa fa-github"
-        },
-        {
-          "name":"skype",
-          "url":"http://twitter.com/rbhatia46",
-          "className":"fa fa-twitter"
         }
       ],
-    "aboutme":"I am currently a pre-final year student at The LNM Institute of Information Technology and pursuing my B.Tech from here. I am a self taught Full Stack Web Developer, currently diving deeper into Machine Learning. I believe that to be successful in life, one needs to be obsessive with their dreams and keep working towards them.",
-    "address":"India",
-    "website":"https://rbhatia46.github.io",
+    "aboutme":"I grew up knowing that I would go into some STEM field, but it wasn't until high school that I discovered my love of mathematics and computer science. My high school didn't offer any computer science classes so I began teaching myself C++, by the time I started my journey at Pennsylvania State University in 2020, I was familiar with C++, Java, and Python and I had already started making some small projects. I am always looking to learn more about this rich and deep field of science and push myself to acheive more everyday",
+    "address":"North Eastern United States",
+    "website":"http://noahschiro.com/#contact",
     "education":[
       {
-        "UniversityName":"The LNM Insitute of Information Technology",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Aug",
-        "YearOfPassing":"2020",
-        "Achievements":"Some Achievements"
-      },
-      {
-        "UniversityName":"Some University",
-        "specialization":"Some specialization",
-        "MonthOfPassing":"Jan",
-        "YearOfPassing":"2018",
-        "Achievements":"Some Achievements"
+        "UniversityName":"Pennsylvania State University",
+        "specialization":"Computer Science; Mathematics",
+        "MonthOfEnrollment":"Aug",
+        "YearOfEnrollment":"2020",
+        "MonthOfPassing":"May",
+        "YearOfPassing":"2024",
+        "Achievements":[
+          "GPA: 3.86",
+          "Honors Program",
+          "President's Freshman Award",
+          "Dean's List",
+          "Student government Vice President and Executive Liaison",
+        ]
       }
     ],
     "work":[
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Aerospace Labortory",
+        "specialization":"Software engineer, CAD designer",
+        "MonthOfStarting":"Sep",
+        "YearOfStarting":"2018",
+        "MonthOfLeaving":"May",
+        "YearOfLeaving":"2019",
+        "Achievements": [
+          "Worked on a drone that was cable of carrying a 2 kilogram payload.",
+          "Created a 3D printer with a 1 cubic meter build area.",
+          "Actively designed parts in SolidWorks for ongoing projects.",
+          "Wrote firmware for projects which needed embedded software"] 
       },
       {
-        "CompanyName":"Some Company",
-        "specialization":"Some specialization",
-        "MonthOfLeaving":"Jan",
-        "YearOfLeaving":"2018",
-        "Achievements":"Some Achievements"
+        "CompanyName":"Rusty Rail",
+        "specialization":"Server",
+        "MonthOfStarting":"May",
+        "YearOfStarting":"2021",
+        "MonthOfLeaving":"Present",
+        "YearOfLeaving":"",
+        "Achievements": ["Serviced guests with whatever needs they might have. The role required good interpersonal communication and cohesive team work in order to function properly, as well as the ability to work in a fast paced, high pressure environment."]
       }
     ],
-    "skillsDescription":"Your skills here",
+    "skillsDescription":"A short list",
     "skills":[
       {
-        "skillname":"HTML5"
+        "skillname":"C/C++"
       },
       {
-        "skillname":"CSS"
+        "skillname":"Python"
       },
       {
-        "skillname":"Reactjs"
+        "skillname":"Java"
+      },
+      {
+        "skillname":"ReactJS"
+      },
+      {
+        "skillname":"HTML/CSS"
+      },
+      {
+        "skillname":"Bash"
+      },
+      {
+        "skillname":"Linux"
+      },
+      {
+        "skillname":"Git/Github"
+      },
+      {
+        "skillname":"Markdown"
+      },
+      {
+        "skillname":"LaTeX"
       }
     ],
     "portfolio":[
       {
-        "name":"project1",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
+        "name":"NBA Basketball predictor",
+        "description":"Uses linear regression, sci-kit learn, and historical data to predict upcoming basketball games",
+        "imgurl":"images/portfolio/nba.jpg",
+        "projecturl":"http://github.com/NoahSchiro/NBA-basketball-predictor"
       },
       {
-        "name":"project2",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/project.jpg"
+        "name":"This Website!",
+        "description":"This website is built with React.js and deployed with AWS",
+        "imgurl":"images/portfolio/website.jpg",
+        "projecturl": "void(0)"
       },
       {
-        "name":"project3",
-        "description":"mobileapp",  
-        "imgurl":"images/portfolio/project2.png"
+        "name":"3D-Physics Simulations",
+        "description":"Physics simulations in Python displaying fundemental concepts in electricity & magnetism",
+        "imgurl":"images/portfolio/physics.jpg",
+        "projecturl": "https://github.com/NoahSchiro/3d-physics"
       },
       {
-        "name":"project4",
-        "description":"mobileapp",
-        "imgurl":"images/portfolio/phone.jpg"
-      }
-    ],
-    "testimonials":[
-      {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"Custom math library (underway)",
+        "description":"A math library written from scratch in C that has the same functionality of cmath and more",
+        "imgurl":"images/portfolio/math.jpg",
+        "projecturl": "https://github.com/NoahSchiro/Math"
       },
       {
-        "description":"This is a sample testimonial",
-        "name":"Some technical guy"
+        "name":"",
+        "description":"",
+        "imgurl":"",
+        "projecturl": ""
+      },
+      {
+        "name":"QuRandom (underway)",
+        "description":"Random number generator API that uses quantum computers to generate truly random numbers",
+        "imgurl":"images/portfolio/quantum.jpg",
+        "projecturl": "void(0)"
+      },
+      {
+        "name":"Custom Smart Home (underway)",
+        "description":"A fully functional smart home system built from scratch",
+        "imgurl":"images/portfolio/smartHome.jpg",
+        "projecturl":"https://github.com/NoahSchiro/Neumann"
       }
     ]
   }
