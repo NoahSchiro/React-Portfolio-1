@@ -40,8 +40,21 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Aerospace Labortory",
-        "specialization":"Software engineer, CAD designer",
+        "CompanyName":"Applied Research Laboratory",
+        "specialization":"R&D Engineer",
+        "MonthOfStarting":"May",
+        "YearOfStarting":"2022",
+        "MonthOfLeaving":"Present",
+        "YearOfLeaving":"",
+        "Achievements": [
+        "Worked cohesively with a small intimate team to develop accurate physics simulations relevant to national security.",
+        "Extensively used version control software, wrote documentation for our code, and adhered to C++ best practices.",
+        "Implemented accurate and computationally efficient physics simulations.",
+        "Practiced C++ program profiling and concurrency to maximize the efficiency of our programs."]
+      },
+      {
+        "CompanyName":"Aerospace Laboratory",
+        "specialization":"Software Engineer, CAD designer",
         "MonthOfStarting":"Sep",
         "YearOfStarting":"2018",
         "MonthOfLeaving":"May",
@@ -51,15 +64,6 @@ let resumeData = {
           "Created a 3D printer with a 1 cubic meter build area.",
           "Actively designed parts in SolidWorks for ongoing projects.",
           "Wrote firmware for projects which needed embedded software"] 
-      },
-      {
-        "CompanyName":"Rusty Rail",
-        "specialization":"Server",
-        "MonthOfStarting":"May",
-        "YearOfStarting":"2021",
-        "MonthOfLeaving":"Present",
-        "YearOfLeaving":"",
-        "Achievements": ["Serviced guests with whatever needs they might have. The role required good interpersonal communication and cohesive team work in order to function properly, as well as the ability to work in a fast paced, high pressure environment."]
       }
     ],
     "skillsDescription":"A short list",
@@ -127,7 +131,7 @@ let resumeData = {
         "projecturl": ""
       },
       {
-        "name":"QuRandom (underway)",
+        "name":"QuRandom",
         "description":"Random number generator API that uses quantum computers to generate truly random numbers",
         "imgurl":"images/portfolio/quantum.jpg",
         "projecturl": "void(0)"
