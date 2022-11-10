@@ -134,13 +134,13 @@ let resumeData = {
         "name":"QuRandom",
         "description":"Random number generator API that uses quantum computers to generate truly random numbers",
         "imgurl":"images/portfolio/quantum.jpg",
-        "projecturl": "void(0)"
+        "projecturl": "https://github.com/NoahSchiro/QuRandom"
       },
       {
-        "name":"Custom Smart Home (underway)",
-        "description":"A fully functional smart home system built from scratch",
-        "imgurl":"images/portfolio/smartHome.jpg",
-        "projecturl":"https://github.com/NoahSchiro/Neumann"
+        "name":"Chess AI",
+        "description":"Chess clone and several AI implementation which play chess better than me!",
+        "imgurl":"images/portfolio/chess.jpg",
+        "projecturl": "https://github.com/NoahSchiro/chess-clone"
       }
     ]
   }
