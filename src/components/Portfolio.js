@@ -4,33 +4,22 @@ export default class Porfolio extends Component {
     let resumeData = this.props.resumeData;
     return (
       <section id="portfolio">
-      <div className="row">
-        <div className="twelve columns collapsed">
-          <h1>Check Out Some of My Works.</h1>
-          <div id="portfolio-wrapper" className="bgrid-quarters s-bgrid-thirds cf">
-          {
-            resumeData.portfolio.map((item)=>{
-              return(
-                <div className="columns portfolio-item">
-                  <a href={item.projecturl}>
-                  <div className="item-wrap">
-                      <img src={`${item.imgurl}`} className="item-img"/>
-                      <div className="overlay">
-                        <div className="portfolio-item-meta">
-                          <h5>{item.name}</h5>
-                          <p>{item.description}</p>
-                        </div>
-                      </div>
-                  </div>
-                  </a>
+      <h1>Check Out Some of My Works</h1>
+      <div className="portfolio">
+        {
+          resumeData.portfolio && resumeData.portfolio.map((project) => {
+            return(
+              <div className="project-card" style={{ backgroundImage: `url(${project.imgurl})` }}>
+                <div className="project-info" onClick={() => window.open(project.projecturl, "_blank")}>
+                  <h3>{project.name}</h3>
+                  <p>{project.description}</p>
                 </div>
-              )
-            })
-          }
-          </div>
-        </div>
+              </div>
+            )
+          })
+        }
       </div>
-  </section>
-        );
+      </section>
+    );
   }
 }
