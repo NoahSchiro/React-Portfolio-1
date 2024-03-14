@@ -96,6 +96,14 @@ let resumeData = {
           "Wrote firmware for projects which needed embedded software"] 
       }
     ],
+	"openSource":[
+		{
+		  "projectName":"openai/improved-diffusion",
+		  "technologiesUsed":"Python, PyTorch, Diffusion,",
+		  "link":"https://github.com/openai/improved-diffusion",
+		  "description":"Enabled training with automatic mixed precision which reduces memory usage and speeds up development on certain GPU architectures.",
+		}
+	],
     "skillsDescription":"Some of the languages and frameworks that I am proficient in.",
     "skills":[
       {
