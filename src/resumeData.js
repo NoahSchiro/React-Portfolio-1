@@ -18,8 +18,8 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I'm a passionate Software Engineer interested in solving real world, complex problems using technology. Currently based in State College, PA, I've spent my career thus far immersed in the world of computer vision and machine learning, helping to advance the capabilities of the Applied Research Laboratory (ARL) through innovative algorithm development and efficient model training.\n\nMy journey in the tech industry started with ARL as an intern. Since then I have also gained some valuable experience working with Walmart Global Tech. There, I honed my skills in data migration and management, crucial for today's data-driven decision-making processes, and especially crucial for effective machine learning. This experience solidified my interest in making data not only accessible but also meaningful.\n\nMy academic background from Pennsylvania State University, where I pursued a Bachelor's degree in computer science with a minor in mathematics, provided me with a solid foundation in various programming languages and tools. I am particularly proud of my projects, such as Minigrad, a machine learning library, and QuRandom, a unique program utilizing quantum computing to generate true random numbers for cryptography. I hope that these projects reflect my commitment to innovation, new ideas, and my ability to think outside the box.\n\nBeyond my professional life, I am a continual learner, always eager to explore new concepts. When not coding, I love reading non-fiction books, traveling and exploring other cultures, and exercise (particularly when the exercise has me continually learning, like Brazillian Jiu-Jitsu or golf).\n\nI believe in the power of technology to make a positive impact on society, and I am constantly seeking opportunities to apply my skills towards meaningful and challenging projects. Let's connect and explore how we can collaborate to create something extraordinary!Feel free to reach out to me through my LinkedIn, GitHub, or visit my website to learn more about my work and projects.",
-    "address":"State College, PA, United States",
+    "aboutme":"I'm a machine learning engineer and researcher interested in solving real world, complex problems using technology. Currently based in Boston, MA, I've spent my career immersed in the world of cutting edge machine learning technology, helping to advance the capabilities of laboratories through innovative algorithm development and efficient model training.\n\nMy journey in the tech industry started with ARL as an intern. Since then I have also gained some valuable experience working with Walmart Global Tech. There, I honed my skills in data migration and management, crucial for today's data-driven decision-making processes, and especially crucial for effective machine learning. This experience solidified my interest in making data not only accessible but also meaningful.\n\nMy academic background from Pennsylvania State University, where I pursued a Bachelor's degree in computer science with a minor in mathematics, provided me with a solid foundation in various programming languages and tools. I am particularly proud of my projects, such as Minigrad, a machine learning library, and QuRandom, a unique program utilizing quantum computing to generate true random numbers for cryptography. I hope that these projects reflect my commitment to innovation, new ideas, and my ability to think outside the box.\n\nBeyond my professional life, I am a continual learner, always eager to explore new concepts. When not coding, I love reading non-fiction books, traveling and exploring other cultures, and exercise.\n\nI believe in the power of technology to make a positive impact on society, and I am constantly seeking opportunities to apply my skills towards meaningful and challenging projects. Let's connect and explore how we can collaborate to create something extraordinary!Feel free to reach out to me through my LinkedIn, GitHub, or visit my website to learn more about my work and projects.",
+    "address":"Boston, MA, United States",
     "website":"http://noahschiro.com/#contact",
     "education":[
       {
@@ -39,13 +39,27 @@ let resumeData = {
       }
     ],
     "work":[
+	  {
+        "CompanyName":"MITRE",
+        "specialization":"Intermediate AI Research Engineer",
+        "MonthOfStarting":"Nov",
+        "YearOfStarting":"2024",
+        "MonthOfLeaving":"Present",
+        "YearOfLeaving":"",
+        "Achievements": 
+        [
+          "Enabled high speed training and inference by establishing kubernetes pipelines for many different projects",
+          "Fine-tuned LLMs for systematic, structured robotic planning and control."
+        ]
+      },
+
       {
         "CompanyName":"Applied Research Laboratory",
         "specialization":"Image Science and Computer Vision Engineer",
         "MonthOfStarting":"Jan",
         "YearOfStarting":"2023",
-        "MonthOfLeaving":"Present",
-        "YearOfLeaving":"",
+        "MonthOfLeaving":"Nov",
+        "YearOfLeaving":"2024",
         "Achievements": 
         [
           "Developed computer vision algorithms in Python to detect objects of interest",
@@ -82,19 +96,6 @@ let resumeData = {
           "Practiced C++ program profiling and concurrency to maximize the efficiency of our programs."
         ]
       },
-      {
-        "CompanyName":"Aerospace Laboratory",
-        "specialization":"Software Engineer, CAD designer",
-        "MonthOfStarting":"Sep",
-        "YearOfStarting":"2018",
-        "MonthOfLeaving":"May",
-        "YearOfLeaving":"2019",
-        "Achievements": [
-          "Worked on a drone that was cable of carrying a 2 kilogram payload.",
-          "Created a 3D printer with a 1 cubic meter build area.",
-          "Actively designed parts in SolidWorks for ongoing projects.",
-          "Wrote firmware for projects which needed embedded software"] 
-      }
     ],
 	"openSource":[
 		{
