@@ -5,7 +5,7 @@ let resumeData = {
     "linkedinId": "https://www.linkedin.com/in/noah-schiro-516754190/",
     "phoneNumber" : "+1-570-535-9086",
     "email" : "noahschiro@rocketmail.com",
-    "roleDescription": "I am a research engineer with the Pennsylvania State University specializing in computer vision, machine learning, and systems programming.",
+    "roleDescription": "I am an AI research engineer at MITRE Labs.",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -18,7 +18,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"I'm a machine learning engineer and researcher interested in solving real world, complex problems using technology. Currently based in Boston, MA, I've spent my career immersed in the world of cutting edge machine learning technology, helping to advance the capabilities of laboratories through innovative algorithm development and efficient model training.\n\nMy journey in the tech industry started with ARL as an intern. Since then I have also gained some valuable experience working with Walmart Global Tech. There, I honed my skills in data migration and management, crucial for today's data-driven decision-making processes, and especially crucial for effective machine learning. This experience solidified my interest in making data not only accessible but also meaningful.\n\nMy academic background from Pennsylvania State University, where I pursued a Bachelor's degree in computer science with a minor in mathematics, provided me with a solid foundation in various programming languages and tools. I am particularly proud of my projects, such as Minigrad, a machine learning library, and QuRandom, a unique program utilizing quantum computing to generate true random numbers for cryptography. I hope that these projects reflect my commitment to innovation, new ideas, and my ability to think outside the box.\n\nBeyond my professional life, I am a continual learner, always eager to explore new concepts. When not coding, I love reading non-fiction books, traveling and exploring other cultures, and exercise.\n\nI believe in the power of technology to make a positive impact on society, and I am constantly seeking opportunities to apply my skills towards meaningful and challenging projects. Let's connect and explore how we can collaborate to create something extraordinary!Feel free to reach out to me through my LinkedIn, GitHub, or visit my website to learn more about my work and projects.",
+    "aboutme":"I'm a machine learning engineer and researcher interested in solving real world, complex problems using technology. Currently based in Boston, MA, I've spent my career immersed in the world of cutting edge machine learning technology, helping to advance the capabilities of laboratories through innovative algorithm development and efficient model training.\n\nMy journey in the tech industry started with ARL as an intern. Since then I have also gained some valuable experience working with Walmart Global Tech. There, I honed my skills in data migration and management, crucial for today's data-driven decision-making processes, and especially crucial for effective machine learning. This experience solidified my interest in making data not only accessible but also meaningful.\n\nMy academic background from Pennsylvania State University, where I pursued a Bachelor's degree in computer science with a minor in mathematics, provided me with a solid foundation in various programming languages and tools. I am particularly proud of my projects, such as Minigrad, a machine learning library, and QuRandom, a unique program utilizing quantum computing to generate true random numbers for cryptography. I hope that these projects reflect my commitment to innovation, new ideas, and my ability to think outside the box.\n\nBeyond my professional life, I am a continual learner, always eager to explore new concepts. When not coding, I love reading non-fiction books, traveling and exploring other cultures, and exercise.\n\nI believe in the power of technology to make a positive impact on society, and I am constantly seeking opportunities to apply my skills towards meaningful and challenging projects. Let's connect and explore how we can collaborate to create something extraordinary! Feel free to reach out to me through my LinkedIn, GitHub, or visit my website to learn more about my work and projects.",
     "address":"Boston, MA, United States",
     "website":"http://noahschiro.com/#contact",
     "education":[
@@ -30,7 +30,7 @@ let resumeData = {
         "MonthOfPassing":"Dec",
         "YearOfPassing":"2023",
         "Achievements":[
-          "GPA: 3.7",
+          "GPA: 3.72",
           "Honors Program",
           "President's Freshman Award",
           "Dean's List",
@@ -48,8 +48,11 @@ let resumeData = {
         "YearOfLeaving":"",
         "Achievements": 
         [
-          "Enabled high speed training and inference by establishing kubernetes pipelines for many different projects",
-          "Fine-tuned LLMs for systematic, structured robotic planning and control."
+          "Co-Author and AI Subject Matter Expert for the NIST NCCoE Cyber AI Profile. Currently reviewing comments from the community and updating the profile on that basis.",
+          "Deployed and maintained AI-based solutions, including Large Language Models (LLMs), Retrieval-Augmented Generation (RAG) pipelines, semantic search systems, and vector databases on MITRE's Kubernetes cluster for internal company use.",
+          "Authored technical documentation, internal blog posts, and tutorials to communicate new features and services to AI engineers across the company; delivered presentations and provided direct support to enable wide-spread adoption.",
+          "Fine-tuned custom LLMs using multi-node Kubernetes training environments, accelerating model training while increasing fault tolerance.",
+          "Served as the AI subject matter expert for an interdisciplinary robotics project exploring the viability of LLM-based planning methods to accelerate deployment of swarm robots when given a lexical objective.",
         ]
       },
 
@@ -62,8 +65,10 @@ let resumeData = {
         "YearOfLeaving":"2024",
         "Achievements": 
         [
-          "Developed computer vision algorithms in Python to detect objects of interest",
-          "Imporved the accuracy of our models and decreased training time to reduce labour and computing costs for both the Applied Research Laboratory and the sponsor of the project"
+          "Promoted to Co-Principal Investigator (Co-PI) on a research contract after 6 months of experience. The project focused on evaluating the effectiveness of Microsoft-developed LLMs and RAG systems for specialized applications.",
+          "Led presentations of project results to internal lab stakeholders and external sponsors with emphasis on clear communication of technical concepts.",
+          "Built end-to-end computer vision projects, including data labeling, model training pipelines, testing, evaluation, and deployment to production environments.",
+          "Rapidly developed and deployed LLM and RAG applications for enterprise use. The project was carried out efficiently, using only 10% of the pre-allocated budget.",
         ]
       },
 
@@ -76,9 +81,9 @@ let resumeData = {
         "YearOfLeaving":"2023",
         "Achievements": 
         [
-          "Migrated employee data from legacy mainframes to Google Cloud to make data easily accessible for analysis and to save on storage cost.",
+          "Migrated employee data from legacy mainframes to Google Cloud Platform (GCP) to make data easily accessible for analysis and to save up to 74% on storage costs.",
           "Cleaned employee data for analysis, reporting metrics, and for machine learning applications.",
-          "Centralized data so that downstream users could access it easily and efficiently."
+          "Centralized data so that downstream users could access it easily and efficiently.",
         ]
       },
       {
@@ -109,6 +114,12 @@ let resumeData = {
 		  "technologiesUsed":"Python, PyTorch, torchtext",
 		  "link":"https://github.com/pytorch/examples",
 		  "description":"Demonstrated how one can use transformers for machine translation using pytorch and torchtext.",
+		},
+		{
+		  "projectName":"tracel-ai/burn",
+		  "technologiesUsed":"Burn, machine learning, git",
+		  "link":"https://github.com/tracel-ai/burn",
+		  "description":"Added various missing activation functions and updated documentation",
 		}
 
 	],
@@ -176,21 +187,21 @@ let resumeData = {
         "projecturl":"https://github.com/NoahSchiro/minigrad"
       },
       {
-        "name":"Papyrus (in progress)",
-        "description":"TUI text editor in Rust",
-        "imgurl":"images/portfolio/papyrus.jpg",
-        "projecturl":"https://github.com/NoahSchiro/papyrus"
+        "name":"BlueBikes Dynamic Pricing",
+        "description":"Using machine learning to predict supply and demand of Boston's Bluebikes",
+        "imgurl":"images/portfolio/bluebikes.jpg",
+        "projecturl":"https://github.com/NoahSchiro/bluebikes"
       },
       {
         "name":"Paint by numbers",
-        "description":"Using GANs to generate impressionist artwork from random numbers",
+        "description":"Using Diffusion to generate impressionist artwork from random numbers",
         "imgurl":"images/portfolio/paintbynumbers.png",
         "projecturl":"https://github.com/NoahSchiro/paint-by-numbers"
       },
       {
-        "name":"Mute (in progress)",
-        "description":"Adblock for podcasts, using transformers to detect when an ad is playing",
-        "imgurl":"images/portfolio/mute.svg",
+        "name":"OSMGraph",
+        "description":"Rust toolkit for playing with OSM data",
+        "imgurl":"images/portfolio/osm.png",
         "projecturl":"void(0)"
       },
       {
@@ -212,8 +223,8 @@ let resumeData = {
         "projecturl":"https://github.com/NoahSchiro/sign-language-interpreter"
       },
       {
-        "name":"Hamlet",
-        "description":"Haskell machine learning and training completely from scratch",
+        "name":"HaMLET",
+        "description":"Haskell Machine Learning and training completely from scratch",
         "imgurl":"images/skills/haskell.svg",
         "projecturl":"https://github.com/NoahSchiro/hamlet"
       },
