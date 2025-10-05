@@ -20,7 +20,7 @@ export default class ContactUs extends Component {
               </div>
             </aside>
           </div>
-        </section>
-        );
+		</section>
+	);
   }
 }
